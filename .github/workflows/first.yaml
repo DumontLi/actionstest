@@ -29,7 +29,7 @@ jobs:
       - name: Terraform plan
         run: terraform plan
       - name: release
-        #if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
+        # # if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
         run: npx semantic-release
         # env:
         #   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
