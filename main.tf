@@ -23,6 +23,8 @@ terraform {
       version = "4.62.0" # Optional but recommended in production
     }
   }
+}
+
 #   backend "s3" {
 #     bucket = "myotherclass25bucket"
 #     key    = "prod/terraform.tfstate"
