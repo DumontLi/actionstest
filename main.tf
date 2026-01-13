@@ -6,7 +6,7 @@ resource "aws_vpc" "actions" {
   cidr_block = "10.0.0.0/24"
 
   tags = {
-    Name        = "Class25VPC"
+    Name        = "Class25-Actionstest-VPC"
     Team        = "DevOps"
     Environment = "Prod"
   }
