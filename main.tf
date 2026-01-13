@@ -1,5 +1,12 @@
+terraform {
+  required_providers {
+    aws     = "hashicorps/aws"
+    version = "~> 3.0"
+  }
+}
+
 provider "aws" {
-  region = "us-west-2"
+  region = "us-west-1"
 }
 
 resource "aws_vpc" "actions" {
